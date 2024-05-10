@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.main{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    background-image: url("https://th.bing.com/th/id/R.8cf0f118077b67f66e0df8ec39f6f884?rik=%2fc48UVKtPiFTXA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-C4D72l1nncA%2fThrc3CKURKI%2fAAAAAAAAAAM%2fbIHDr7emAds%2fs1600%2fanniversary_sonic.png&ehk=COJGey24ioeUjWfoJV1FEM0bxcf69vj7OQBqt3z9vSI%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    transform: scale(1);
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0 400px 50px blue;
+}
+*{
+    font-family: "Oswald", sans-serif;
+}
+.main:hover{
+    background-image: url("https://th.bing.com/th/id/OIP.nvXYx7fqhvlc_wf51AVS_QHaIi?rs=1&pid=ImgDetMain");
+    box-shadow: 0 0 800px 800px black;
+    transform: translateX(800px) translateY(0) rotateZ(360deg);
+}
+.text{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 250px;
+    font-size: 14px;
+}
+.shadow{
+    color: white;
+
+}
+.main2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/68/8e/99/688e99aff1170f7aa9e6fd019f808fdc.png");
+}
+.main2:hover{
+    transform: translateX(-800px) rotateZ(360deg);
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb09d4cb-6f58-4c68-b9cf-ec6819546088/df7ucvr-815c15ad-88ea-4d97-bceb-ce71b6e8854d.png/v1/fill/w_894,h_894,q_70,strp/android_shadow__yellow____shadow_the_hedgehog_by_shadowlifeman_df7ucvr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjgwMCIsInBhdGgiOiJcL2ZcL2JiMDlkNGNiLTZmNTgtNGM2OC1iOWNmLWVjNjgxOTU0NjA4OFwvZGY3dWN2ci04MTVjMTVhZC04OGVhLTRkOTctYmNlYi1jZTcxYjZlODg1NGQucG5nIiwid2lkdGgiOiI8PTI4MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FjLD4hTiNVVealcjSEv-J3lZt4XtjvnYq89t_XCHn-k");
+
+}
